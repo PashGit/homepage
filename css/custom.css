@@ -27,6 +27,11 @@ h4, .h4{line-height: 30px}
 	height:50px;
 	padding-left: 15px;
 }
+@media(max-width: 768px){
+	.navbar-brand img {
+		height: 30px;
+	}
+}
 
 .navbar-right {
     padding-top: 20px;
