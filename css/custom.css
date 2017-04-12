@@ -119,6 +119,11 @@ h4, .h4{line-height: 30px}
 
 .progress-bar{
 	background-color: #EFDC00;
+	font-size: 14px;
+	text-align: left;
+	padding-left: 20px;
+	line-height: 20px;
+	color: #000;
 }
 
 #skills, #artwork{
