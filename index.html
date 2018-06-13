@@ -1,352 +1,195 @@
-<!DOCTYPE html>
-<html lang ="en">
-	<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content = "IE=edge">
-	<meta name="viewport" content ="width=device-width, initial-scale=1">
-	
-	<!--Stylesheets-->
-	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="css/custom.css" rel="stylesheet">
-	
-	<link rel='shortcut icon' href='images/favicon.png'>
-	
-	<title>Pash Arts</title>
-	</head>
-	
-	
-	
-	<body>
-		<nav class="navbar navbar-default navbar-fixed-top">
-			<div class="container-fluid">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						</button>
-				</div>
-				
-			
-				<a class="navbar-brand" href="http://pasharts.de/">
-						<img alt="Logo" src="images/logo.png">
-				</a>
-				
-				<div class="collapse navbar-collapse" id="navbar-collapse">
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+<link rel="stylesheet" href="css/custom.css">
+<link href="https://fonts.googleapis.com/css?family=Merriweather:700" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="shortcut icon" href="images/favicon.png">
+<title>Pash Arts</title>
+</head>
 
-					<ul class="nav nav-pills navbar-right">
-							<li role="navigation"><a href="http://pasharts.de/">Home</a></li>
-							<li role="navigation"><a href="http://pasharts.de/#about">About</a></li>
-							<li role="navigation"><a href="http://pasharts.de/#projects">Projects</a></li>
-							<li role="navigation"><a href="http://pasharts.de/#artwork">Artworks</a></li>
-							<li role="navigation"><a href="http://pasharts.de/#contact">Contact</a></li>
-					</ul>
-				</div>
-			</div>
-		</nav>
+<body>
 
-<div class="row">
-	<div class="col-md-12">		
-		<div id ="startCarousel" class="carousel slide" data-ride="carousel">
-			<ol class="carousel-indicators">
-				<li data-target="#startCarousel" data-slide-to="0" class="active"></li>
-				<li data-target="#startCarousel" data-slide-to="1"></li>
-				<li data-target="#startCarousel" data-slide-to="2"></li>
-			</ol>
-			
-			<!--Wrapper-->
-			<div class="carousel-inner" role="listbox">
-				<div class="item active">
-					<img src="images/banner-web.jpg" alt ="SliderTitle1">
-				</div>
-				
-				<div class="item">
-					<img src="images/banner-prog.jpg" alt ="SliderTitle2">
-				</div>
-				
-				<div class="item">
-					<img src="images/banner-art.jpg" alt ="SliderTitle3">
-				</div>
-			</div>
-			
-			
-			<!-- Controls Left Right -->
-			<a class="left carousel-control" href="#startCarousel" role="button" data-slide="prev">
-				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-				<span class="sr-only">Previous</span>
-			</a>
-			
-			<a class="right carousel-control" href="#startCarousel" role="button" data-slide="next">
-				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-				<span class="sr-only">Next</span>
-			</a>
-			
-		</div>
-	</div>
+<!--Navigation-->
+<div class="container-fluid header" style="padding: 0px">
+  <nav class="navbar navbar-dark navbar-expand-md"> <a class="navbar-brand m-2" href="#"> <img alt="Logo" src="images/logo.png" style="height: 42px;"> </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse"> <span class="navbar-toggler-icon"></span> </button>
+    <div class="collapse navbar-collapse" id="navbar-collapse">
+      <ul class="navbar-nav ml-auto">
+        <li role="navigation" class="nav-item"><a class="nav-link" href="http://pasharts.de/">Home</a></li>
+        <li role="navigation" class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li role="navigation" class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li role="navigation" class="nav-item"><a class="nav-link" href="#artworks">Artworks</a></li>
+        <li role="navigation" class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="mx-auto header-text">
+    <h1>Hi, I'm Shenglin. <br>
+      A Web Developer based in Berlin.</h1>
+  </div>
 </div>
-		
-		<!-- About -->
-		<div id ="about" class="container">
-			<div class="row">
-				<!--<div class="col-md-7">
-				</div>-->
-				<div class="col-md-2 col-xs-5 col-md-offset-7 col-xs-offset-1">
-					<img src="images/about.jpg" class="aboutpic">
-				</div>
-				<div class="col-md-3 col-xs-6 abouttext">
-					<h1>Hi! I'm Pash.</h1>
-					<p>I'm a student, developer and artist from Germany. I like films, traveling and good food. Nice to meet you!</p>
-				</div>
-			</div>
-		</div>
-		
-		<div class="container">
-			<div class="row abouticon">
-				<div class="col-md-4">
-					<img src="images/icon_school.png">
-					<h2>Computer Science</h2>
-					<span>Student of Media and Computing at University of Applied Sciences Berlin</span>
-				</div>
-				<div class="col-md-4">
-					<img src="images/icon_work.png">
-					<h2>Front-End Developer</h2>
-					<span>Web Design and Development at an eCommerce agency</span>
-				</div>
-				<div class="col-md-4">
-					<img src="images/icon_berlin.png">
-					<h2>Berlin</h2>
-					<span>Based in the German capital, one of the most vibrant cities in the world.</span>
-				</div>
-			</div>
-		</div>
 
-		<section id="skills">
-		
-			<div class="container">
-				<div class="row abouticon">
-					<div class="col-md-6">
-						Programming and Markup languages
-						<p>
-						<div class="progress">
-							<div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%"> 
-							HTML, CSS</div>
-						</div>		
-						<div class="progress"> 
-							<div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%"> 
-							JavaScript</div>
-						</div>	
-						<div class="progress">
-							<div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%"> 
-							Java, SQL</div>
-						</div>	
-						<div class="progress">
-							<div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%"> 
-							AngularJS</div>
-						</div>
-						<div class="progress">
-							<div class="progress-bar" role="progressbar" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100" style="width: 35%"> 
-							php, Python</div>
-						</div>
-					</div>
-					
-					<div class="col-md-6">
-						Software and Management Systems
-						<p>
-						<div class="progress">
-							<div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%"> 
-							Adobe Photoshop</div>
-						</div>	
-						<div class="progress">
-							<div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%"> 
-							Adobe Illustrator</div>
-						</div>	
-						<div class="progress">
-							<div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%"> 
-							Wordpress</div>
-						</div>
-						<div class="progress">
-							<div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%"> 
-							Microsoft Office</div>
-						</div>	
-						<div class="progress">
-							<div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%"> 
-							GitHub</div>
-						</div>
-						
-					</div>
-				</div>
-			</div>
-		
-		</section>
-	
-		
-		<div id="projects" class="container">
-			<div class="row">
-				<div class="col-md-4 col-xs-12 workurl"><a href="#projects" title="Sellmato"><img src="images/work/sellmato_preview.jpg" class="thumbnail img-responsive"></a><a href="http://sellmato.com"target="_blank">Sellmato</a></div>
-				<div class="col-md-4 col-xs-12 workurl"><a href="#projects" title="The Berlin Diet"><img src="images/work/berlin_diaet_preview.jpg" class="thumbnail img-responsive"></a><a href="http://dieberlindiaet.com"target="_blank">Berlin Diät</a></div>
-				<div class="col-md-4 col-xs-12 workurl"><a href="#projects" title="Pixup Media Agency"><img src="images/work/pixup_preview.jpg" class="thumbnail img-responsive"></a><a href="http://pixupmedia.com"target="_blank">Pixup Media Agency</a></div>
-				
-				<div class="col-xs-12"><button type="button" class="btn btn-info more morefirst" data-toggle="collapse" data-target="#portfolio">More</button></div>
-				
-				<div id="portfolio" class="collapse">
-					<div class="col-md-4 col-xs-12 workurl"><a href="#projects" title="Wannajoin App"><img src="images/work/wannajoin_preview.jpg" class="thumbnail img-responsive"></a><a href="http://wannajoin-app.com"target="_blank">Wannajoin App</a></div>
-					<div class="col-md-4 col-xs-12 workurl"><a href="#projects" title="DeineHelfer24"><img src="images/work/deinehelfer_preview.jpg" class="thumbnail img-responsive"></a><a href="http://deinehelfer24.de"target="_blank">DeineHelfer24</a></div>
-					<div class="col-md-4 col-xs-12 workurl"><a href="#projects" title="Advybox"><img src="images/work/advy_preview.jpg" class="thumbnail img-responsive"></a><a href="http://advybox.com"target="_blank">Advybox</a></div>
-					
-					<div class="col-xs-12"><button type="button" class="btn btn-info more moresecond" data-toggle="collapse" data-target="#portfoliotwo">More</button></div>
-					
-						<div id="portfoliotwo" class="collapse">
-							<div class="col-md-4 col-xs-12 workurl"><a href="#projects" title="p1 Offices"><img src="images/work/p1_preview.jpg" class="thumbnail img-responsive"></a><a href="http://p1-offices.com"target="_blank">P1 Offices</a></div>
-							<div class="col-md-4 col-xs-12 workurl"><a href="#projects" title="Kindergarden Mima"><img src="images/work/kita_mima_preview.jpg" class="thumbnail img-responsive"></a><a href="http://kita-mima.de"target="_blank">Kindergarden Mima</a></div>
-							<div class="col-md-4 col-xs-12 workurl"><a href="#projects" title="Laurea Jewelry"><img src="images/work/laurea_preview.jpg" class="thumbnail img-responsive"></a><a href="http://laurea-schmuck.com"target="_blank">Laurea Jewelry</a></div>
-						</div>
-				</div>
-			</div>
-		</div>
-		
-		<div id="modalBox" class="modal fade" tabindex="-1" role="dialog">
-			<div class="modal-dialog">
-				<div class="model-content">
-					<div class="model-header">
-						<button type="button" class="close" data-dismiss="modal">x</button>
-						<h3 class="modal-title"></h3>
-					</div>
-					<div class="modal-body">
-					</div>
-				
-					<div class="modal-footer">
-						<!--<h3 class="modal-title">Heading</h3>
-						<button class="btn btn-default" data-dismiss="modal">Close</button>-->
-					</div>
-				</div>
-			</div>
-		</div>
-		
-		
-		<!--Art-->
-		<section id="artwork">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<h4>I grew up bilingually with Chinese and German and speak English fluently. 
-						At school I studied French and Spanish with great success. In my freetime I love working on my numerous sketchbooks, 
-						watching films or enjoy an interesting walk through Berlin (with really good food) and share it with my followers on Twitter or Instagram. </h4>
+<!--About-->
+<div class="container" id="about">
+  <div class="row">
+    <div class="mx-auto pt-5">
+      <div class="portrait"> <img src="images/about_photo.jpg" alt="My photo" style="height: 190px"> </div>
+    </div>
+  </div>
+</div>
+<div class="container pb-5">
+  <div class="row">
+    <div class="col-md-2 text-center offset-md-1 offset-sm-0"> <img class="icons" src="images/icons_work.png" alt="Work"> </div>
+    <div class="col-md-8">
+      <h2 class="icon-sub">Web Developer at Amazon</h2>
+      I am the Web Developer in the Amazon EU HVH Team, taking care of HVH-related projects and landing pages on Amazon.jobs. </div>
+    <div class="col-md-2 text-center offset-md-1 offset-sm-0"> <img class="icons" src="images/icons_uni.png" alt="Degree"> </div>
+    <div class="col-md-8">
+      <h2 class="icon-sub">B.Sc. Computer Science for Media</h2>
+      In 2017 I graduated from the University of Applied Sciences Berlin (HTW Berlin) with very good grades. </div>
+    <div class="col-md-2 text-center offset-md-1 offset-sm-0"> <img class="icons" src="images/icons_heart.png" alt="Passion"> </div>
+    <div class="col-md-8">
+      <h2 class="icon-sub">Front-End & UX</h2>
+      You may call me a Web & UX Enthusiast! User-centered design and development are my passions. </div>
+  </div>
+</div>
 
-					</div>
-				</div>
-			</div>
-		</section>
-		
-		<section id="art">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="carousel slide" id="artcarousel">
-							<div class="carousel-inner">
-								<div class="item active">
-									<div class="col-md-4">
-										<img src="images/art/splash.jpg" title="Splash Of Colour" class="img-responsive">
-									</div>
-								</div>
-								<div class="item">
-									<div class="col-md-4">
-										<img src="images/art/katniss.jpg" title="The Girl On Fire" class="img-responsive">
-									</div>
-								</div>
-								<div class="item">
-									<div class="col-md-4">
-										<img src="images/art/DOS.jpg" title="Desolation Of Smaug" class="img-responsive">
-									</div>
-								</div>
-								<div class="item">
-									<div class="col-md-4">
-										<img src="images/art/GOT.jpg" title="Khaleesi"class="img-responsive">
-									</div>
-								</div>
-								<div class="item">
-									<div class="col-md-4">
-										<img src="images/art/James.jpg" title="James" class="img-responsive">
-									</div>
-								</div>
-								<div class="item">
-									<div class="col-md-4">
-										<img src="images/art/molly.jpg" title="Molly" class="img-responsive">
-									</div>
-								</div>
-								<div class="item">
-									<div class="col-md-4">
-										<img src="images/art/pressure_points.jpg" title="Pressure Points" class="img-responsive">
-									</div>
-								</div>
-								
-							</div>
-							
-							
-							<!-- Controls Left Right -->
-							<a class="left carousel-control" href="#artcarousel" role="button" data-slide="prev">
-								<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-								<span class="sr-only">Previous</span>
-							</a>
-							
-							<a class="right carousel-control" href="#artcarousel" role="button" data-slide="next">
-								<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-								<span class="sr-only">Next</span>
-							</a>
-							
-						</div>
-					</div>
-				</div>
-			</div>
-			
-		
-		</section>
-		
-		
-		<div id="contact" class="container">
-			<div class="row">
-				<div class="col-md-6 col-xs-12">
-					<img src="images/mail.png" alt="mail">
-				</div>
-				
-				<div class="col-md-6 col-xs-12">
-					<h1>Contact</h1>
-					<h3>Feel free to message me. <br>I look forward to hearing from you!</h3>
-					<p style="padding-top:20px">
-					<h4>
-						<p>E-Mail: <a href="mailto:info@pasharts.de">info@pasharts.de</a>
+<!--Portfolio-->
+<div class="container-fluid" id="projects">
+  <div class="row">
+    <div class="col-md-4 col-sm-6 port port-1">
+      <div class="port-middle">
+        <div class="port-title"><strong>Amazon EU Branding Campaign</strong> <br>
+          "Get the whole Package" Hiring Campaign landing pages across four European countries.
+          <p><a class="btn" href="http://getthewholepackage.co.uk" target="_blank">Take a look</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6 port port-2">
+      <div class="port-middle">
+        <div class="port-title"><strong>Thesis: E-Learning App</strong></div>
+        <br>
+        Conception and Development of a Chinese E-Learning App "Pandawan" based on Angular.
+        <p>
+          <button class="btn modal-btn" type="button">Take a look</button>
+        </p>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6 port port-3">
+      <div class="port-middle">
+        <div class="port-title"><strong>Amazon EU Fulfillment Landing Pages</strong></div>
+        <br>
+        Amazon.jobs Fulfillment Landing Pages for eight European countries, using Bootstrap.
+        <p><a class="btn" href="https://www.amazon.jobs/warehouse-operative" target="_blank">Take a look</a></p>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6 port port-4">
+      <div class="port-middle">
+        <div class="port-title"><strong>Pomodoro App</strong></div>
+        <br>
+        Conception, Usability-testing, Wireframing and Prototyping for an effiency-boosting To-do application based on the Pomodoro principle.
+        <p>
+          <button class="btn modal-btn" type="button">Take a look</button>
+        </p>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6 port port-5">
+      <div class="port-middle">
+        <div class="port-title"><strong>Sellmato</strong></div>
+        <br>
+        Website for E-commerce system plugin Sellmato created in Wordpress.
+        <p><a class="btn" href="https://www.sellmato.com/" target="_blank">Take a look</a></p>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6 port port-6">
+      <div class="port-middle">
+        <div class="port-title"><strong>Pixup Media</strong></div>
+        <br>
+        Website for Berlin-based E-commerce agency Pixup Media created in Wordpress.
+        <p><a class="btn" href="https://www.pixupmedia.com/" target="_blank">Take a look</a></p>
+      </div>
+    </div>
+  </div>
+</div>
 
-						<p>Twitter: <a href="http://twitter.com/pash_arts" target="_blank">http://twitter.com/pash_arts</a>
+<!--Modalbox-->
+<div id="modalBox" class="modal fade" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="model-content">
+      <div class="model-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true" style="color:#fff">&times;</span> </button>
+      </div>
+      <div class="modal-body"> </div>
+    </div>
+  </div>
+</div>
 
-						<p>Facebook: <a href="http://facebook.com/pash_arts" target="_blank">http://facebook.com/PashArts</a>
+<!--About-Text-->
+<div class="container-fluid blue-bg text-white px-5 py-4">
+  <div class="row">
+    <div class="col-md-8 offset-md-2 col-sm-12"> I grew up bilingually with Chinese and German and speak English fluently. Learning new languages is great fun, and useful for wanderlust times. In my freetime I love working on my numerous sketchbooks, watching films or fulfill my destiny as a foodie, and share it with my followers on Instagram or Twitter. Check out some of my artworks below! </div>
+  </div>
+</div>
 
-						<p>Instagram: <a href="https://instagram.com/pash_arts" target="_blank">https://instagram.com/pash_arts</a>
-					</h4>
-				</div>
-			</div>
-		</div>
-		
-		<footer>
-			<div class="container">
-				<div class="row">
-					<div class="col-xs-6">
-						© 2017 Pash Arts | <a href="impressum.html">Imprint</a>
-					</div>
-					
-					<div class="col-xs-6">
-						FOLLOW ME: 
-						<a class="social" href="http://facebook.com/PashArts" target="_blank"><img src="images/fb_logo.png" alt ="Facebook"></a>
-						<a class="social" href="http://twitter.com/Pash_Arts" target="_blank"><img src="images/twitter_logo.png" alt ="Twitter"> 
-						<a class="social" href="http://instagram.com/Pash_Arts" target="_blank"><img src="images/insta_logo.png" alt ="Instagram">
-					</div>
-				</div>
-			</div>
-		</footer>
-	
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<script src="js/custom.js"></script>
-		
-	</body>
-	
+<!--Artwork-->
+<div class="container-fluid px-0 py-5" id="artworks">
+  <div class="row" style="margin-right: 0px;">
+    <div class="col-md-3 col-sm-6">
+      <div class="art-thumb">
+        <div class="thumb thumb-1"></div>
+      </div>
+    </div>
+    <div class="col-md-3 col-sm-6">
+      <div class="art-thumb">
+        <div class="thumb thumb-2"></div>
+      </div>
+    </div>
+    <div class="col-md-3 col-sm-6">
+      <div class="art-thumb">
+        <div class="thumb thumb-3"></div>
+      </div>
+    </div>
+    <div class="col-md-3 col-sm-6">
+      <div class="art-thumb">
+        <div class="thumb thumb-4"></div>
+      </div>
+    </div>
+    <div class="col-md-3 col-sm-6">
+      <div class="art-thumb">
+        <div class="thumb thumb-5"></div>
+      </div>
+    </div>
+    <div class="col-md-3 col-sm-6">
+      <div class="art-thumb">
+        <div class="thumb thumb-6"></div>
+      </div>
+    </div>
+    <div class="col-md-3 col-sm-6">
+      <div class="art-thumb">
+        <div class="thumb thumb-7"></div>
+      </div>
+    </div>
+    <div class="col-md-3 col-sm-6">
+      <div class="art-thumb">
+        <div class="thumb thumb-8"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Contact-->
+<div class="container-fluid blue-bg text-white text-center" id="contact">
+  <h2 class="text-white section-title">Get in touch?</h2>
+  <a href="mailto:info@pasharts.de"><i class="fa fa-envelope pb-4" style="font-size: 75px"></i></a> <br>
+  <a class="p-3" href="https://www.linkedin.com/in/shenglin-pan" target="_blank"><i class="fa fa-linkedin" style="font-size:30px"></i></a> <a class="p-3" href="https://www.instagram.com/Pash_Arts/" target="_blank"><i class="fa fa-instagram" style="font-size:30px"></i></a> <a class="p-3" href="https://twitter.com/pash_arts" target="_blank"><i class="fa fa-twitter" style="font-size:30px"></i></a> </div>
+<footer>
+  <div class="container-fluid blue-bg text-center text-white pt-4 pb-2"> <span style="font-size:12px">© 2018 Pash Arts</span> </div>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script> 
+<script src="custom.js"></script>
+</body>
 </html>
