@@ -142,12 +142,12 @@ img.icons{
 }
 
 .port-5:before{
-	background: url('../images/sellm_screen.png') top no-repeat;
+	background: url('../images/sellm-screen.png') top no-repeat;
 	background-size: cover;
 }
 
 .port-6:before{
-	background: url('../images/pix_screen.png') top no-repeat;
+	background: url('../images/pix-screen.png') top no-repeat;
 	background-size: cover;
 }
 
